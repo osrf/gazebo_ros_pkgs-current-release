@@ -9,4 +9,5 @@ Standards-Version: 3.9.2
 Package: @(Package)-current
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
+Conflicts: @(Package)
 Description: @(Description)
