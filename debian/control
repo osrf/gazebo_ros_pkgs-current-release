@@ -1,0 +1,13 @@
+Source: ros-groovy-gazebo-ros-pkgs
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-groovy-gazebo-ros-pkgs-current
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-gazebo-msgs-current, ros-groovy-gazebo-plugins-current, ros-groovy-gazebo-ros-current
+Conflicts: ros-groovy-gazebo-ros-pkgs
+Description: Interface for using ROS with the Gazebo simulator.
