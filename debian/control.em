@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~), @(', '.join(BuildDepends))
 Homepage: @(Homepage)
 Standards-Version: 3.9.2
 
-Package: @(Package)
+Package: @(Package)-current
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
 Description: @(Description)
