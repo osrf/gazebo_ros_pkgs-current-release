@@ -1,0 +1,22 @@
+From cf7bc36b72b1f6d951d4d9d6e9fe1812435a1312 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Wed, 20 Nov 2013 13:17:12 +0100
+Subject: [PATCH 2/2] Set up a conflict with same but not -current pkg
+
+---
+ debian/control.em |    1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/control.em b/debian/control.em
+index d41b851..3d6178e 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -9,4 +9,5 @@ Standards-Version: 3.9.2
+ Package: @(Package)-current
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
++Conflicts: @(Package)
+ Description: @(Description)
+-- 
+1.7.9.5
+
