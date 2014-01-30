@@ -53,7 +53,7 @@ tracks:
     name: gazebo_ros_pkgs
     patches: null
     release_inc: '1'
-    release_repo_url: null
+    release_repo_url: ' https://github.com/osrf/gazebo_ros_pkgs-current-release'
     release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
