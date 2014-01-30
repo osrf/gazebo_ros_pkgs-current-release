@@ -1,4 +1,4 @@
-From a2fb33d0ff4866c4d92863186a5fb8ed95c76ce7 Mon Sep 17 00:00:00 2001
+From deb95dd91685ed003f46d72d26db786b92cd8bb9 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 20 Nov 2013 13:16:57 +0100
 Subject: [PATCH 1/2] Patch name to release -current version
