@@ -1,0 +1,13 @@
+Source: ros-hydro-gazebo-ros
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), gazebo-current, libtinyxml-dev, ros-hydro-catkin, ros-hydro-cmake-modules, ros-hydro-dynamic-reconfigure, ros-hydro-gazebo-msgs-current, ros-hydro-gazebo-plugins-current, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-rosgraph-msgs, ros-hydro-roslib, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-gazebo-ros-current
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo-current, libtinyxml-dev, ros-hydro-dynamic-reconfigure, ros-hydro-gazebo-msgs-current, ros-hydro-gazebo-plugins-current, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-rosgraph-msgs, ros-hydro-roslib, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-tf
+Conflicts: ros-hydro-gazebo-ros
+Description: Provides ROS plugins that offer message and service publishers for interfacing with Gazebo through ROS. Formally simulator_gazebo/gazebo
