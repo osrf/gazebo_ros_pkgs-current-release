@@ -1,0 +1,13 @@
+Source: ros-hydro-gazebo-ros-pkgs
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-gazebo-ros-pkgs-current
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-gazebo-msgs-current, ros-hydro-gazebo-plugins-current, ros-hydro-gazebo-ros-current
+Conflicts: ros-hydro-gazebo-ros-pkgs
+Description: Interface for using ROS with the Gazebo simulator.
