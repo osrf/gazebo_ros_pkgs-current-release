@@ -1,4 +1,4 @@
-From 6597c47558d8441e08165c80edfd7baadbe03b33 Mon Sep 17 00:00:00 2001
+From f412511dc93165cf6e2bf3324324248bf89bf79b Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Wed, 20 Nov 2013 13:17:25 +0100
 Subject: [PATCH 2/2] Set up a conflict with same but not -current pkg
